@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '916000530073'
+developerName= '🐥Ronen singha'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -1459,9 +1459,9 @@ menu =
 `*${ucapanWaktu} @${senderr.split('@')[0]}*
 
 \`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
+➪ *1 Week :* _500INR_
+➪ *1 Month :* _150INR_
+➪ *Permanent :* _500INR_
 
 \`\`\`OPEN FOR STUDENTS :\`\`\`
 ➪ *Ordinary student :* _500INR_
@@ -2837,7 +2837,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownername}\n`
-+ `ORG: Owner Of Doge Bot ;\n`
++ `ORG: Owner Of Elaina Bot ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${owner}:${owner}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
@@ -2854,7 +2854,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${developerName}\n`
-+ `ORG: Developer Of Doge Bot ;\n`
++ `ORG: Developer Of Elaina Bot ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${developerNo}:${developerNo}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
@@ -2868,7 +2868,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*🐶Elaina 𝗕𝗼𝘁 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
